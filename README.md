@@ -2,7 +2,9 @@
 
 <br />
 
-Desarrollo software a la medida para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Construyo demos funcionales de punta a punta, con interfaz, lógica y datos, para que el cliente pruebe la solución antes de decidir.
+Construyo software a la medida para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Cada proyecto empieza como una demo funcional de punta a punta, con interfaz, lógica y datos, para que el cliente pruebe la solución antes de decidir.
+
+<br />
 
 ## Proyectos destacados
 
@@ -15,32 +17,38 @@ Desarrollo software a la medida para pequeñas y medianas empresas en Panamá: *
   <img src="assets/card-tienda.svg" alt="Tienda con inventario automático. Proyecto privado." width="49%" />
 </p>
 
-<sub>Las demos usan marcas, personas y datos ficticios. El código de Gestión de licitaciones está en <a href="https://github.com/dany2509D/-licitaciones-app-">este repositorio</a>.</sub>
+<sub>Las demos usan marcas, personas y datos ficticios. Código de Gestión de licitaciones: <a href="https://github.com/dany2509D/-licitaciones-app-">dany2509D/-licitaciones-app-</a>.</sub>
+
+<br />
 
 ## Otros trabajos
 
-Proyectos hechos como propuestas para clientes, en repositorios privados.
-
-| Proyecto | Qué hace |
-|---|---|
+| Proyecto | Qué resuelve |
+|:--|:--|
 | **Citas por WhatsApp** | Un asistente agenda, confirma y recuerda citas; la clínica lo ve todo en un panel. Probado en fisioterapia, odontología y veterinaria. |
 | **Gestión para gimnasios** | Landing y panel de administración: membresías, pagos y operación diaria. |
 | **Pedidos para restaurantes y foodtrucks** | Menú, pedidos y reportes para el dueño. |
 | **Tiendas en línea** | Propuestas de diseño para marcas de moda y barbería, con catálogo, carrito y pago. |
 | **Sitio corporativo** | Next.js con un asistente "Cuéntanos tu proyecto" y lista de espera. |
 
-## Tecnologías
+<sub>Proyectos hechos como propuestas para clientes; el código está en repositorios privados.</sub>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,nextjs,tailwind,python,postgres,prisma,sqlite,html,css,vercel,netlify,git&perline=14" alt="JavaScript, TypeScript, Node.js, Next.js, Tailwind CSS, Python, PostgreSQL, Prisma, SQLite, HTML, CSS, Vercel, Netlify, Git" />
-</p>
+<br />
 
-Integraciones: WooCommerce, WhatsApp, correo transaccional y APIs REST.
+## Stack
+
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,nextjs,tailwind,python,postgres,prisma,sqlite,html,css,vercel,netlify,git&perline=14" alt="JavaScript, TypeScript, Node.js, Next.js, Tailwind CSS, Python, PostgreSQL, Prisma, SQLite, HTML, CSS, Vercel, Netlify, Git" />
+
+<sub>Integraciones: WooCommerce · WhatsApp · correo transaccional · APIs REST</sub>
+
+<br />
 
 ## Cómo trabajo
 
-<img src="assets/proceso.svg" alt="1. Entender el proceso del negocio. 2. Diseñar con especificación y plan. 3. Entregar versiones funcionales por etapas. 4. Verificar antes de terminar." width="100%" />
+<img src="assets/proceso.svg" alt="01 Entender cómo opera el negocio. 02 Diseñar con especificación y plan. 03 Entregar versiones funcionales por etapas. 04 Verificar antes de terminar." width="100%" />
+
+<br />
 
 ## Contacto
 
-¿Tienes un proceso que todavía depende de hojas de cálculo o mensajes sueltos? Escríbeme abriendo un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new).
+¿Tu negocio todavía depende de hojas de cálculo o mensajes sueltos? Hablemos: abre un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new) y te respondo.

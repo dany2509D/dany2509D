@@ -1,55 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Daniel Saez, desarrollador de aplicaciones Jr">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Daniel Saez, desarrollador de aplicaciones Jr">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070d1a"/>
-      <stop offset="1" stop-color="#121d3d"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.7" cy="0.2" r="0.75">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="m"><rect width="1200" height="380" fill="url(#fade)"/></mask>
+    <radialGradient id="spot" cx="0.85" cy="0" r="0.6">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#6366f1" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38bdf8"/>
       <stop offset="1" stop-color="#818cf8"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.5">
-      <stop offset="0" stop-color="#6366f1" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.05"/>
-    </pattern>
   </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#dots)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="380" rx="20" fill="#09090b"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)" mask="url(#m)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#spot)"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="20" fill="none" stroke="#27272a"/>
 
-  <text x="80" y="92" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#38bdf8">SOFTWARE A LA MEDIDA · PANAMÁ</text>
-  <text x="80" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#f8fafc">Daniel Saez</text>
-  <rect x="80" y="178" width="72" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="80" y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#cbd5e1">Desarrollador de aplicaciones Jr</text>
+  <g font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
+    <rect x="80" y="62" width="330" height="32" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#27272a"/>
+    <circle cx="100" cy="78" r="4" fill="#22c55e"/>
+    <text x="114" y="83" font-size="14" fill="#a1a1aa">Panamá · Software a la medida para pymes</text>
 
-  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1" text-anchor="middle">
-    <rect x="80" y="246" width="122" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="141" y="267">Facturación</text>
-    <rect x="212" y="246" width="113" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="268.5" y="267">Inventario</text>
-    <rect x="335" y="246" width="100" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="385" y="267">Reservas</text>
-    <rect x="445" y="246" width="122" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="506" y="267">IA aplicada</text>
-  </g>
+    <text x="76" y="182" font-size="80" font-weight="700" letter-spacing="-2" fill="#fafafa">Daniel Saez</text>
+    <text x="80" y="230" font-size="28" fill="#a1a1aa">Desarrollador de aplicaciones Jr</text>
 
-  <g transform="translate(760 56)">
-    <rect width="370" height="210" rx="14" fill="#0b1222" stroke="#ffffff" stroke-opacity="0.1"/>
-    <path d="M0 14a14 14 0 0 1 14-14h342a14 14 0 0 1 14 14v22H0z" fill="#ffffff" fill-opacity="0.04"/>
-    <circle cx="22" cy="18" r="5" fill="#f87171"/>
-    <circle cx="40" cy="18" r="5" fill="#fbbf24"/>
-    <circle cx="58" cy="18" r="5" fill="#34d399"/>
-    <text x="185" y="23" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" fill="#64748b">perfil.ts</text>
-    <g font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#cbd5e1">
-      <text x="22" y="66"><tspan fill="#c084fc">const</tspan> dev = {</text>
-      <text x="46" y="92"><tspan fill="#93c5fd">nombre</tspan>: <tspan fill="#86efac">"Daniel Saez"</tspan>,</text>
-      <text x="46" y="118"><tspan fill="#93c5fd">rol</tspan>: <tspan fill="#86efac">"Desarrollador Jr"</tspan>,</text>
-      <text x="46" y="144"><tspan fill="#93c5fd">stack</tspan>: [<tspan fill="#86efac">"TS"</tspan>, <tspan fill="#86efac">"Node.js"</tspan>, <tspan fill="#86efac">"Python"</tspan>],</text>
-      <text x="46" y="170"><tspan fill="#93c5fd">foco</tspan>: <tspan fill="#86efac">"pymes en Panamá"</tspan></text>
-      <text x="22" y="196">};</text>
+    <rect x="80" y="270" width="1040" height="1" fill="#27272a"/>
+
+    <g font-size="17" fill="#d4d4d8">
+      <rect x="80" y="304" width="8" height="8" rx="2" fill="#38bdf8"/>
+      <text x="98" y="314">Facturación electrónica</text>
+      <rect x="340" y="304" width="8" height="8" rx="2" fill="#60a5fa"/>
+      <text x="358" y="314">Punto de venta e inventario</text>
+      <rect x="640" y="304" width="8" height="8" rx="2" fill="#818cf8"/>
+      <text x="658" y="314">Reservas por WhatsApp</text>
+      <rect x="900" y="304" width="8" height="8" rx="2" fill="#a78bfa"/>
+      <text x="918" y="314">Automatización con IA</text>
     </g>
+
+    <rect x="1031" y="61" width="90" height="90" rx="22" fill="url(#ring)"/>
+    <rect x="1033" y="63" width="86" height="86" rx="20" fill="#09090b"/>
+    <text x="1076" y="118" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="-1" fill="#fafafa">DS</text>
   </g>
 </svg>

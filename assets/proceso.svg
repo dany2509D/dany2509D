@@ -1,40 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Forma de trabajo: entender, diseñar, entregar, verificar">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1222"/>
-      <stop offset="1" stop-color="#111c38"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#818cf8"/>
-    </linearGradient>
-  </defs>
-  <rect x="1" y="1" width="1198" height="188" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
-  <rect x="150" y="68" width="900" height="3" rx="1.5" fill="url(#line)" fill-opacity="0.6"/>
-  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
-    <g>
-      <circle cx="150" cy="70" r="26" fill="#0b1222" stroke="#38bdf8" stroke-width="2"/>
-      <text x="150" y="77" font-size="20" font-weight="700" fill="#7dd3fc">1</text>
-      <text x="150" y="128" font-size="20" font-weight="700" fill="#f8fafc">Entender</text>
-      <text x="150" y="154" font-size="15" fill="#94a3b8">el proceso del negocio</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Cómo trabajo: 01 Entender, 02 Diseñar, 03 Entregar, 04 Verificar">
+  <rect x="0.5" y="0.5" width="1199" height="209" rx="20" fill="#0c0c0f" stroke="#27272a"/>
+  <g fill="#27272a">
+    <rect x="300" y="40" width="1" height="130"/>
+    <rect x="600" y="40" width="1" height="130"/>
+    <rect x="900" y="40" width="1" height="130"/>
+  </g>
+  <g font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" font-weight="600">
+    <text x="48" y="64" fill="#38bdf8">01</text>
+    <text x="348" y="64" fill="#60a5fa">02</text>
+    <text x="648" y="64" fill="#818cf8">03</text>
+    <text x="948" y="64" fill="#a78bfa">04</text>
+  </g>
+  <g font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
+    <g font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">
+      <text x="48" y="106">Entender</text>
+      <text x="348" y="106">Diseñar</text>
+      <text x="648" y="106">Entregar</text>
+      <text x="948" y="106">Verificar</text>
     </g>
-    <g>
-      <circle cx="450" cy="70" r="26" fill="#0b1222" stroke="#60a5fa" stroke-width="2"/>
-      <text x="450" y="77" font-size="20" font-weight="700" fill="#93c5fd">2</text>
-      <text x="450" y="128" font-size="20" font-weight="700" fill="#f8fafc">Diseñar</text>
-      <text x="450" y="154" font-size="15" fill="#94a3b8">especificación y plan por escrito</text>
-    </g>
-    <g>
-      <circle cx="750" cy="70" r="26" fill="#0b1222" stroke="#818cf8" stroke-width="2"/>
-      <text x="750" y="77" font-size="20" font-weight="700" fill="#a5b4fc">3</text>
-      <text x="750" y="128" font-size="20" font-weight="700" fill="#f8fafc">Entregar</text>
-      <text x="750" y="154" font-size="15" fill="#94a3b8">versiones funcionales por etapas</text>
-    </g>
-    <g>
-      <circle cx="1050" cy="70" r="26" fill="#0b1222" stroke="#a78bfa" stroke-width="2"/>
-      <text x="1050" y="77" font-size="20" font-weight="700" fill="#c4b5fd">4</text>
-      <text x="1050" y="128" font-size="20" font-weight="700" fill="#f8fafc">Verificar</text>
-      <text x="1050" y="154" font-size="15" fill="#94a3b8">antes de dar algo por terminado</text>
+    <g font-size="15" fill="#a1a1aa">
+      <text x="48" y="138">Cómo opera el negocio hoy</text>
+      <text x="48" y="160">y dónde pierde tiempo.</text>
+      <text x="348" y="138">Especificación y plan por</text>
+      <text x="348" y="160">escrito antes de programar.</text>
+      <text x="648" y="138">Versiones funcionales en</text>
+      <text x="648" y="160">etapas cortas.</text>
+      <text x="948" y="138">Pruebas y revisión antes</text>
+      <text x="948" y="160">de dar algo por terminado.</text>
     </g>
   </g>
 </svg>
