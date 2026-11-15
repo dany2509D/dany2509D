@@ -2,44 +2,45 @@
 
 ## Perfil
 
-Desarrollo software a la medida para negocios que necesitan que sus procesos funcionen todos los días: ventas, facturación, inventario, reservas y reportes. Me enfoco en soluciones simples de operar, fáciles de mantener y entregadas por etapas, para que el cliente vea resultados desde las primeras semanas.
+Desarrollador de aplicaciones enfocado en software a la medida para pequeñas y medianas empresas en Panamá: ventas, facturación, inventario, reservas y reportes. Construyo demos funcionales de punta a punta (interfaz, lógica y datos) para que el cliente pueda probar la solución antes de decidir. Trabajo con prácticas que escalan: especificación y plan antes de programar, pruebas donde importan y cuidado con credenciales y datos.
 
-## Áreas de trabajo
+## Demos en vivo
 
-| Área | Alcance |
-|---|---|
-| Punto de venta e inventario | Ventas, control de stock, cierres de caja y sincronización con tiendas en línea (WooCommerce) |
-| Facturación electrónica | Flujos de emisión conectados a un proveedor de certificación (PAC), orientados a Panamá |
-| Reservas y atención al cliente | Agendamiento por WhatsApp, recordatorios y seguimiento para clínicas y servicios |
-| Paneles de gestión | Back-offices para gimnasios, restaurantes y comercios: membresías, pedidos y reportes |
-| Automatización e IA aplicada | Pronósticos, alertas y asistentes que reducen trabajo manual |
+Todas usan marcas, personas y datos **ficticios**.
 
-## Proyectos públicos
+| Proyecto | Qué demuestra | Tecnología |
+|---|---|---|
+| [Factura sola](https://factura.panacealogic.dev) | Punto de venta que factura electrónicamente al cobrar (PAC simulado) y avisa cuando el negocio se acerca al tope del facturador gratuito de la DGI. Tres tipos de negocio: ferretería, restaurante y tienda en línea. | HTML, CSS y JavaScript sin dependencias |
+| [Gestión de licitaciones](https://licitaciones-app-three.vercel.app) | Ciclo completo: borrador, envío por correo con adjunto, vencimiento y recordatorios automáticos, facturación y cobro. Roles, JWT y tareas programadas. [Código](https://github.com/dany2509D/-licitaciones-app-) | Next.js, TypeScript, Prisma, PostgreSQL |
+| [BarrioPizzaAI](https://github.com/dany2509D/BarrioPizzaAI-1) | Panel de inventario para una pizzería: pronóstico de consumo, alertas de stock, orden de compra semanal y asistente con IA. Con pruebas automatizadas. | Python, Streamlit, pandas, Plotly |
 
-**[Sistema de Gestión de Licitaciones](https://github.com/dany2509D/-licitaciones-app-)**
-Aplicación web que cubre el ciclo completo de una licitación: borrador, envío por correo con adjunto, vencimiento y recordatorios automáticos, facturación y cobro. Autenticación con JWT y roles, tareas programadas y despliegue en Vercel.
-`Next.js` `TypeScript` `Prisma` `PostgreSQL` `Tailwind CSS`
+## Otros trabajos
 
-**[BarrioPizzaAI](https://github.com/dany2509D/BarrioPizzaAI-1)**
-Panel de inventario para una pizzería: pronóstico de consumo, alertas de stock, orden de compra semanal y asistente con IA. Incluye pruebas automatizadas.
-`Python` `Streamlit` `pandas` `Plotly`
+Estos proyectos están en repositorios privados porque se hicieron como propuestas para clientes. Los describo sin nombrarlos.
 
-Gran parte de mi trabajo comercial está en repositorios privados por acuerdo con los clientes.
+- **Tienda en línea con inventario automático** para un catálogo de miles de productos: catálogo con filtros y cupones, punto de venta con caja y devoluciones, stock que baja solo en cada venta y orden de compra automática al llegar al mínimo. Se conecta a WooCommerce. *(Node.js, SQLite)*
+- **Citas por WhatsApp para clínicas**: un asistente agenda, confirma y recuerda citas, y la clínica lo ve todo en un panel. Probado con tres giros: fisioterapia, odontología y veterinaria. *(JavaScript con módulos nativos, sin build)*
+- **Landing y panel de gestión para un gimnasio**: membresías, pagos y administración del negocio.
+- **Demo de pedidos y gestión para un foodtruck** y **sistema para restaurantes**: pedidos, menú y reportes.
+- **Propuestas de diseño de tiendas en línea** para marcas de moda y barbería, con catálogo, carrito y checkout.
+- **Sitio corporativo en Next.js**: páginas estáticas, un asistente "Cuéntanos tu proyecto" y lista de espera. Desarrollado con especificación y plan de implementación documentados. *(Next.js, TypeScript, Tailwind CSS)*
 
 ## Tecnologías
 
 | | |
 |---|---|
 | **Lenguajes** | JavaScript, TypeScript, Python, SQL, HTML, CSS |
-| **Backend y datos** | Node.js, Next.js, Prisma, PostgreSQL, SQLite |
+| **Frontend** | Next.js, Tailwind CSS, HTML/CSS/JavaScript nativo |
+| **Backend y datos** | Node.js, Prisma, PostgreSQL, SQLite |
 | **Integraciones** | WooCommerce, WhatsApp, correo transaccional, APIs REST |
-| **Despliegue y herramientas** | Vercel, Netlify, Git, GitHub |
+| **Despliegue y herramientas** | Vercel, Netlify, Git y GitHub |
 
 ## Forma de trabajo
 
-- Entiendo el proceso del negocio antes de definir la solución.
-- Entrego versiones funcionales en etapas cortas.
-- Priorizo código claro, pruebas donde importan y manejo cuidadoso de credenciales y datos.
+1. Entender el proceso del negocio antes de definir la solución.
+2. Diseñar con especificación y plan por escrito.
+3. Entregar versiones funcionales en etapas cortas.
+4. Verificar antes de dar algo por terminado.
 
 ## Contacto
 
