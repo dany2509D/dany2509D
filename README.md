@@ -1,4 +1,4 @@
-<img src="banner.svg" alt="Daniel Saez, desarrollador de aplicaciones senior" width="100%" />
+<img src="banner.svg" alt="Daniel Saez, desarrollador de aplicaciones Jr" width="100%" />
 
 ## Perfil
 
