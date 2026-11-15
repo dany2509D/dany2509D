@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280" role="img" aria-label="Factura sola: demo en vivo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1222"/>
+      <stop offset="1" stop-color="#111c38"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="278" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="1" y="1" width="6" height="278" rx="3" fill="#22c55e"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="32" y="30" width="150" height="28" rx="14" fill="#22c55e" fill-opacity="0.14" stroke="#22c55e" stroke-opacity="0.5"/>
+    <text x="107" y="49" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#4ade80">DEMO EN VIVO ↗</text>
+    <text x="32" y="106" font-size="30" font-weight="700" fill="#f8fafc">Factura sola</text>
+    <g font-size="17" fill="#94a3b8">
+      <text x="32" y="144">Punto de venta que emite la factura electrónica</text>
+      <text x="32" y="170">al cobrar (PAC simulado) y avisa cuando el negocio</text>
+      <text x="32" y="196">se acerca al tope del facturador gratuito de la DGI.</text>
+    </g>
+  </g>
+  <g font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#cbd5e1" text-anchor="middle">
+    <rect x="32" y="222" width="58" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="61" y="242">HTML</text>
+    <rect x="100" y="222" width="58" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="129" y="242">CSS</text>
+    <rect x="168" y="222" width="108" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="222" y="242">JavaScript</text>
+  </g>
+</svg>

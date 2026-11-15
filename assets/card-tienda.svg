@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280" role="img" aria-label="Tienda con inventario automático: proyecto privado">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1222"/>
+      <stop offset="1" stop-color="#111c38"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="278" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="1" y="1" width="6" height="278" rx="3" fill="#a78bfa"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="32" y="30" width="190" height="28" rx="14" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="127" y="49" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#c4b5fd">PROYECTO PRIVADO</text>
+    <text x="32" y="106" font-size="30" font-weight="700" fill="#f8fafc">Tienda con inventario automático</text>
+    <g font-size="17" fill="#94a3b8">
+      <text x="32" y="144">Tienda en línea y punto de venta conectados: el</text>
+      <text x="32" y="170">stock baja solo en cada venta y se genera la orden</text>
+      <text x="32" y="196">de compra al llegar al mínimo. Integra WooCommerce.</text>
+    </g>
+  </g>
+  <g font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#cbd5e1" text-anchor="middle">
+    <rect x="32" y="222" width="83" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="73.5" y="242">Node.js</text>
+    <rect x="125" y="222" width="74" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="162" y="242">SQLite</text>
+    <rect x="209" y="222" width="116" height="30" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="267" y="242">WooCommerce</text>
+  </g>
+</svg>
