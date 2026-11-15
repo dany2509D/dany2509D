@@ -1,32 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Cómo trabajo: 01 Entender, 02 Diseñar, 03 Entregar, 04 Verificar">
+  <style>
+    .up{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .scan{animation:scan 4s cubic-bezier(.4,0,.6,1) infinite}
+    @keyframes scan{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(944px);opacity:0}}
+    .num{animation:num 4s ease-in-out infinite}
+    @keyframes num{0%,30%,100%{opacity:.4}8%,18%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="seg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
   <rect x="0.5" y="0.5" width="1199" height="209" rx="20" fill="#0c0c0f" stroke="#27272a"/>
+  <rect x="48" y="24" width="1104" height="2" rx="1" fill="#18181b"/>
+  <rect class="scan" x="48" y="24" width="160" height="2" rx="1" fill="url(#seg)"/>
   <g fill="#27272a">
-    <rect x="300" y="40" width="1" height="130"/>
-    <rect x="600" y="40" width="1" height="130"/>
-    <rect x="900" y="40" width="1" height="130"/>
+    <rect x="300" y="44" width="1" height="130"/>
+    <rect x="600" y="44" width="1" height="130"/>
+    <rect x="900" y="44" width="1" height="130"/>
   </g>
   <g font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" font-weight="600">
-    <text x="48" y="64" fill="#38bdf8">01</text>
-    <text x="348" y="64" fill="#60a5fa">02</text>
-    <text x="648" y="64" fill="#818cf8">03</text>
-    <text x="948" y="64" fill="#a78bfa">04</text>
+    <text class="num" style="animation-delay:.2s" x="48" y="64" fill="#38bdf8">01</text>
+    <text class="num" style="animation-delay:1.2s" x="348" y="64" fill="#60a5fa">02</text>
+    <text class="num" style="animation-delay:2.2s" x="648" y="64" fill="#818cf8">03</text>
+    <text class="num" style="animation-delay:3.2s" x="948" y="64" fill="#a78bfa">04</text>
   </g>
   <g font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
-    <g font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">
-      <text x="48" y="106">Entender</text>
-      <text x="348" y="106">Diseñar</text>
-      <text x="648" y="106">Entregar</text>
-      <text x="948" y="106">Verificar</text>
+    <g class="up">
+      <text x="48" y="106" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">Entender</text>
+      <text x="48" y="138" font-size="15" fill="#a1a1aa">Cómo opera el negocio hoy</text>
+      <text x="48" y="160" font-size="15" fill="#a1a1aa">y dónde pierde tiempo.</text>
     </g>
-    <g font-size="15" fill="#a1a1aa">
-      <text x="48" y="138">Cómo opera el negocio hoy</text>
-      <text x="48" y="160">y dónde pierde tiempo.</text>
-      <text x="348" y="138">Especificación y plan por</text>
-      <text x="348" y="160">escrito antes de programar.</text>
-      <text x="648" y="138">Versiones funcionales en</text>
-      <text x="648" y="160">etapas cortas.</text>
-      <text x="948" y="138">Pruebas y revisión antes</text>
-      <text x="948" y="160">de dar algo por terminado.</text>
+    <g class="up" style="animation-delay:.15s">
+      <text x="348" y="106" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">Diseñar</text>
+      <text x="348" y="138" font-size="15" fill="#a1a1aa">Especificación y plan por</text>
+      <text x="348" y="160" font-size="15" fill="#a1a1aa">escrito antes de programar.</text>
+    </g>
+    <g class="up" style="animation-delay:.3s">
+      <text x="648" y="106" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">Entregar</text>
+      <text x="648" y="138" font-size="15" fill="#a1a1aa">Versiones funcionales en</text>
+      <text x="648" y="160" font-size="15" fill="#a1a1aa">etapas cortas.</text>
+    </g>
+    <g class="up" style="animation-delay:.45s">
+      <text x="948" y="106" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#fafafa">Verificar</text>
+      <text x="948" y="138" font-size="15" fill="#a1a1aa">Pruebas y revisión antes</text>
+      <text x="948" y="160" font-size="15" fill="#a1a1aa">de dar algo por terminado.</text>
     </g>
   </g>
 </svg>

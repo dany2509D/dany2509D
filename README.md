@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Daniel Saez, desarrollador de aplicaciones Jr" width="100%" />
+<img src="assets/banner.svg?v=4" alt="Daniel Saez, desarrollador de aplicaciones Jr" width="100%" />
 
 <br />
 
@@ -9,12 +9,12 @@ Construyo software a la medida para pequeñas y medianas empresas en Panamá: **
 ## Proyectos destacados
 
 <p align="center">
-  <a href="https://factura.panacealogic.dev"><img src="assets/card-factura.svg" alt="Factura sola: punto de venta con facturación electrónica. Demo en vivo." width="49%" /></a>
-  <a href="https://licitaciones-app-three.vercel.app"><img src="assets/card-licitaciones.svg" alt="Gestión de licitaciones. Demo en vivo." width="49%" /></a>
+  <a href="https://factura.panacealogic.dev"><img src="assets/card-factura.svg?v=4" alt="Factura sola: punto de venta con facturación electrónica. Demo en vivo." width="49%" /></a>
+  <a href="https://licitaciones-app-three.vercel.app"><img src="assets/card-licitaciones.svg?v=4" alt="Gestión de licitaciones. Demo en vivo." width="49%" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/dany2509D/BarrioPizzaAI-1"><img src="assets/card-barriopizza.svg" alt="BarrioPizzaAI: panel de inventario con IA. Código público." width="49%" /></a>
-  <img src="assets/card-tienda.svg" alt="Tienda con inventario automático. Proyecto privado." width="49%" />
+  <a href="https://github.com/dany2509D/BarrioPizzaAI-1"><img src="assets/card-barriopizza.svg?v=4" alt="BarrioPizzaAI: panel de inventario con IA. Código público." width="49%" /></a>
+  <img src="assets/card-tienda.svg?v=4" alt="Tienda con inventario automático. Proyecto privado." width="49%" />
 </p>
 
 <sub>Las demos usan marcas, personas y datos ficticios. Código de Gestión de licitaciones: <a href="https://github.com/dany2509D/-licitaciones-app-">dany2509D/-licitaciones-app-</a>.</sub>
@@ -45,7 +45,7 @@ Construyo software a la medida para pequeñas y medianas empresas en Panamá: **
 
 ## Cómo trabajo
 
-<img src="assets/proceso.svg" alt="01 Entender cómo opera el negocio. 02 Diseñar con especificación y plan. 03 Entregar versiones funcionales por etapas. 04 Verificar antes de terminar." width="100%" />
+<img src="assets/proceso.svg?v=4" alt="01 Entender cómo opera el negocio. 02 Diseñar con especificación y plan. 03 Entregar versiones funcionales por etapas. 04 Verificar antes de terminar." width="100%" />
 
 <br />
 

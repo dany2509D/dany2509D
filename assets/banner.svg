@@ -1,4 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Daniel Saez, desarrollador de aplicaciones Jr">
+  <style>
+    .up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    .breathe{animation:breathe 7s ease-in-out infinite}
+    @keyframes breathe{0%,100%{opacity:.5}50%{opacity:1}}
+    .ping{transform-box:fill-box;transform-origin:center;animation:ping 2s cubic-bezier(0,0,.2,1) infinite}
+    @keyframes ping{0%{transform:scale(1);opacity:.8}80%,100%{transform:scale(2.8);opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
@@ -9,43 +18,54 @@
     </radialGradient>
     <mask id="m"><rect width="1200" height="380" fill="url(#fade)"/></mask>
     <radialGradient id="spot" cx="0.85" cy="0" r="0.6">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.24"/>
       <stop offset="0.5" stop-color="#6366f1" stop-opacity="0.08"/>
       <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#818cf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="0.42" stop-color="#fafafa"/>
+      <stop offset="0.5" stop-color="#7dd3fc"/>
+      <stop offset="0.58" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#fafafa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-300 0;700 0;700 0" keyTimes="0;0.35;1" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="380" rx="20" fill="#09090b"/>
   <rect width="1200" height="380" rx="20" fill="url(#grid)" mask="url(#m)"/>
-  <rect width="1200" height="380" rx="20" fill="url(#spot)"/>
+  <rect class="breathe" width="1200" height="380" rx="20" fill="url(#spot)"/>
   <rect x="0.5" y="0.5" width="1199" height="379" rx="20" fill="none" stroke="#27272a"/>
 
   <g font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
-    <rect x="80" y="62" width="330" height="32" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#27272a"/>
-    <circle cx="100" cy="78" r="4" fill="#22c55e"/>
-    <text x="114" y="83" font-size="14" fill="#a1a1aa">Panamá · Software a la medida para pymes</text>
-
-    <text x="76" y="182" font-size="80" font-weight="700" letter-spacing="-2" fill="#fafafa">Daniel Saez</text>
-    <text x="80" y="230" font-size="28" fill="#a1a1aa">Desarrollador de aplicaciones Jr</text>
-
-    <rect x="80" y="270" width="1040" height="1" fill="#27272a"/>
-
-    <g font-size="17" fill="#d4d4d8">
-      <rect x="80" y="304" width="8" height="8" rx="2" fill="#38bdf8"/>
-      <text x="98" y="314">Facturación electrónica</text>
-      <rect x="340" y="304" width="8" height="8" rx="2" fill="#60a5fa"/>
-      <text x="358" y="314">Punto de venta e inventario</text>
-      <rect x="640" y="304" width="8" height="8" rx="2" fill="#818cf8"/>
-      <text x="658" y="314">Reservas por WhatsApp</text>
-      <rect x="900" y="304" width="8" height="8" rx="2" fill="#a78bfa"/>
-      <text x="918" y="314">Automatización con IA</text>
+    <g class="up">
+      <rect x="80" y="62" width="330" height="32" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#27272a"/>
+      <circle class="ping" cx="100" cy="78" r="4" fill="#22c55e"/>
+      <circle cx="100" cy="78" r="4" fill="#22c55e"/>
+      <text x="114" y="83" font-size="14" fill="#a1a1aa">Panamá · Software a la medida para pymes</text>
     </g>
 
-    <rect x="1031" y="61" width="90" height="90" rx="22" fill="url(#ring)"/>
-    <rect x="1033" y="63" width="86" height="86" rx="20" fill="#09090b"/>
-    <text x="1076" y="118" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="-1" fill="#fafafa">DS</text>
+    <text class="up" style="animation-delay:.15s" x="76" y="182" font-size="80" font-weight="700" letter-spacing="-2" fill="url(#shine)">Daniel Saez</text>
+    <text class="up" style="animation-delay:.3s" x="80" y="230" font-size="28" fill="#a1a1aa">Desarrollador de aplicaciones Jr</text>
+
+    <rect class="up" style="animation-delay:.45s" x="80" y="270" width="1040" height="1" fill="#27272a"/>
+
+    <g font-size="17" fill="#d4d4d8">
+      <g class="up" style="animation-delay:.55s"><rect x="80" y="304" width="8" height="8" rx="2" fill="#38bdf8"/><text x="98" y="314">Facturación electrónica</text></g>
+      <g class="up" style="animation-delay:.7s"><rect x="340" y="304" width="8" height="8" rx="2" fill="#60a5fa"/><text x="358" y="314">Punto de venta e inventario</text></g>
+      <g class="up" style="animation-delay:.85s"><rect x="640" y="304" width="8" height="8" rx="2" fill="#818cf8"/><text x="658" y="314">Reservas por WhatsApp</text></g>
+      <g class="up" style="animation-delay:1s"><rect x="900" y="304" width="8" height="8" rx="2" fill="#a78bfa"/><text x="918" y="314">Automatización con IA</text></g>
+    </g>
+
+    <g class="up" style="animation-delay:.2s">
+      <rect x="1031" y="61" width="90" height="90" rx="22" fill="url(#ring)"/>
+      <rect x="1033" y="63" width="86" height="86" rx="20" fill="#09090b"/>
+      <text x="1076" y="118" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="-1" fill="#fafafa">DS</text>
+    </g>
   </g>
 </svg>
