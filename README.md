@@ -1,4 +1,4 @@
-<img src="assets/banner.svg?v=4" alt="Daniel Saez, desarrollador de aplicaciones Jr" width="100%" />
+<img src="assets/banner.svg?v=5" alt="Daniel Saez, desarrollador Full Stack Jr" width="100%" />
 
 <br />
 
