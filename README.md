@@ -1,8 +1,10 @@
 <img src="assets/banner.svg?v=5" alt="Daniel Saez, desarrollador Full Stack Jr" width="100%" />
 
-<br />
+<p align="center">
+  <a href="https://panacealogic.dev/"><img src="https://img.shields.io/badge/Panacea_Logic_AI-panacealogic.dev-38bdf8?style=for-the-badge&labelColor=09090b" alt="Panacea Logic AI: panacealogic.dev" /></a>
+</p>
 
-Construyo software a la medida para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Cada proyecto empieza como una demo funcional de punta a punta, con interfaz, lógica y datos, para que el cliente pruebe la solución antes de decidir.
+Con mi empresa, **[Panacea Logic AI](https://panacealogic.dev/)**, construyo software a la medida y automatizaciones para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Cada proyecto empieza como una demo funcional de punta a punta, con interfaz, lógica y datos, para que el cliente pruebe la solución antes de decidir.
 
 <br />
 
@@ -51,4 +53,4 @@ Construyo software a la medida para pequeñas y medianas empresas en Panamá: **
 
 ## Contacto
 
-¿Tu negocio todavía depende de hojas de cálculo o mensajes sueltos? Hablemos: abre un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new) y te respondo.
+¿Tu negocio todavía depende de hojas de cálculo o mensajes sueltos? Agenda un diagnóstico gratis de 30 minutos en **[panacealogic.dev](https://panacealogic.dev/)** o abre un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new).
