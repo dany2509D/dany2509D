@@ -14,6 +14,9 @@ Construyo software a la medida y automatizaciones para pequeñas y medianas empr
   <a href="https://github.com/dany2509D/BarrioPizzaAI-1"><img src="assets/card-barriopizza.svg?v=4" alt="BarrioPizzaAI: panel de inventario con IA. Código público." width="49%" /></a>
   <a href="https://github.com/dany2509D/dluxe-perfumeria-demo"><img src="assets/card-tienda.svg?v=5" alt="Tienda con inventario automático. Demo en vivo." width="49%" /></a>
 </p>
+<p align="center">
+  <a href="https://citas-whatsapp-demo.vercel.app"><img src="assets/card-citas.svg?v=1" alt="Citas por WhatsApp: asistente que agenda y confirma citas. Demo en vivo." width="49%" /></a>
+</p>
 
 <sub>Las demos usan marcas, personas y datos ficticios. Clic en cada tarjeta para ver la demo o el código.</sub>
 
