@@ -1,39 +1,37 @@
 <img src="assets/banner.svg?v=5" alt="Daniel Saez, desarrollador Full Stack Jr" width="100%" />
 
-<p align="center">
-  <a href="https://panacealogic.dev/"><img src="https://img.shields.io/badge/Panacea_Logic_AI-panacealogic.dev-38bdf8?style=for-the-badge&labelColor=09090b" alt="Panacea Logic AI: panacealogic.dev" /></a>
-</p>
-
-Con mi empresa, **[Panacea Logic AI](https://panacealogic.dev/)**, construyo software a la medida y automatizaciones para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Cada proyecto empieza como una demo funcional de punta a punta, con interfaz, lógica y datos, para que el cliente pruebe la solución antes de decidir.
+Construyo software a la medida y automatizaciones para pequeñas y medianas empresas en Panamá: **ventas, facturación electrónica, inventario, reservas y reportes**. Cada proyecto empieza como una demo funcional de punta a punta, con interfaz, lógica y datos, para probar la solución antes de decidir.
 
 <br />
 
 ## Proyectos destacados
 
 <p align="center">
-  <a href="https://factura.panacealogic.dev"><img src="assets/card-factura.svg?v=4" alt="Factura sola: punto de venta con facturación electrónica. Demo en vivo." width="49%" /></a>
+  <a href="https://factura-sola-demo.vercel.app"><img src="assets/card-factura.svg?v=4" alt="Factura sola: punto de venta con facturación electrónica. Demo en vivo." width="49%" /></a>
   <a href="https://licitaciones-app-three.vercel.app"><img src="assets/card-licitaciones.svg?v=4" alt="Gestión de licitaciones. Demo en vivo." width="49%" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/dany2509D/BarrioPizzaAI-1"><img src="assets/card-barriopizza.svg?v=4" alt="BarrioPizzaAI: panel de inventario con IA. Código público." width="49%" /></a>
-  <img src="assets/card-tienda.svg?v=4" alt="Tienda con inventario automático. Proyecto privado." width="49%" />
+  <a href="https://github.com/dany2509D/dluxe-perfumeria-demo"><img src="assets/card-tienda.svg?v=5" alt="Tienda con inventario automático. Demo en vivo." width="49%" /></a>
 </p>
 
-<sub>Las demos usan marcas, personas y datos ficticios. Código de Gestión de licitaciones: <a href="https://github.com/dany2509D/-licitaciones-app-">dany2509D/-licitaciones-app-</a>.</sub>
+<sub>Las demos usan marcas, personas y datos ficticios. Clic en cada tarjeta para ver la demo o el código.</sub>
 
 <br />
 
-## Otros trabajos
+## Repositorios
 
-| Proyecto | Qué resuelve |
+| Repositorio | Qué resuelve |
 |:--|:--|
-| **Citas por WhatsApp** | Un asistente agenda, confirma y recuerda citas; la clínica lo ve todo en un panel. Probado en fisioterapia, odontología y veterinaria. |
-| **Gestión para gimnasios** | Landing y panel de administración: membresías, pagos y operación diaria. |
-| **Pedidos para restaurantes y foodtrucks** | Menú, pedidos y reportes para el dueño. |
-| **Tiendas en línea** | Propuestas de diseño para marcas de moda y barbería, con catálogo, carrito y pago. |
-| **Sitio corporativo** | Next.js con un asistente "Cuéntanos tu proyecto" y lista de espera. |
+| [**reventa-segura**](https://github.com/dany2509D/reventa-segura) · [demo](https://reventa-segura.vercel.app) | Reventa de entradas verificadas con pago protegido para Panamá (TypeScript, Next.js). |
+| [**citas-whatsapp-demo**](https://github.com/dany2509D/citas-whatsapp-demo) · [demo](https://citas-whatsapp-demo.vercel.app) | Un asistente agenda, confirma y recuerda citas por WhatsApp; la clínica lo ve todo en un panel. |
+| [**factura-sola-demo**](https://github.com/dany2509D/factura-sola-demo) · [demo](https://factura-sola-demo.vercel.app) | Punto de venta con facturación electrónica conectado a un PAC simulado. |
+| [**dluxe-perfumeria-demo**](https://github.com/dany2509D/dluxe-perfumeria-demo) · [demo](https://perfumeria-demo-two.vercel.app) | Tienda con inventario automático y conexión a WooCommerce. |
+| [**-licitaciones-app-**](https://github.com/dany2509D/-licitaciones-app-) · [demo](https://licitaciones-app-three.vercel.app) | Gestión de licitaciones. |
+| [**BarrioPizzaAI-1**](https://github.com/dany2509D/BarrioPizzaAI-1) | Panel de inventario con IA para una pizzería (Python). |
+| [**plato-co-demo**](https://github.com/dany2509D/plato-co-demo) | Pedidos y reservas por WhatsApp para restaurantes con varias sucursales (en diseño). |
 
-<sub>Proyectos hechos como propuestas para clientes; el código está en repositorios privados.</sub>
+<sub>Las demos usan marcas, personas y datos ficticios.</sub>
 
 <br />
 
@@ -53,4 +51,4 @@ Con mi empresa, **[Panacea Logic AI](https://panacealogic.dev/)**, construyo sof
 
 ## Contacto
 
-¿Tu negocio todavía depende de hojas de cálculo o mensajes sueltos? Agenda un diagnóstico gratis de 30 minutos en **[panacealogic.dev](https://panacealogic.dev/)** o abre un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new).
+¿Tu negocio todavía depende de hojas de cálculo o mensajes sueltos? Escríbeme abriendo un [issue en este repositorio](https://github.com/dany2509D/dany2509D/issues/new) y lo conversamos.
